@@ -7,6 +7,7 @@ import Card from './Card';
 import Stepper from './Stepper';
 import Checkbox from './Checkbox';
 import Text from './Text';
+import Strike from './Strike';
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   Stepper,
   Checkbox,
   Text,
+  Strike,
 };

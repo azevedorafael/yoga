@@ -430,6 +430,18 @@ const BaseTheme = ({ primary, secondary, tertiary }) => {
         fontWeight: fontWeights.regular,
       },
     },
+    strike: {
+      padding: {
+        top: spacing.small,
+        right: spacing.small,
+        bottom: spacing.small,
+        left: spacing.small,
+      },
+      radii: radii.rounded,
+      value: {
+        marginBottom: spacing.xsmall,
+      },
+    },
   };
 
   return {
