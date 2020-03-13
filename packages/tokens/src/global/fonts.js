@@ -9,20 +9,13 @@
  * A font
  * @typedef Font
  *
- * @type {Object}
- * @property {String} family
- * @property {Array<Number|String>} weight
+ * @type {String[]}
  */
 
 /**
- * @type {Font[]}
+ * @type {Font}
  */
-const fonts = [
-  {
-    family: 'Open Sans',
-    weight: [400, 600, 700, '400i', '600i', '700i'],
-  },
-];
+const fonts = ['Open Sans'];
 [fonts.openSans] = fonts;
 
 export default fonts;

@@ -248,6 +248,11 @@ const vilaOlimpia = [
 const white = '#FFFFFF';
 
 /**
+ * @type {String}
+ */
+const text = newYork.i80;
+
+/**
  * @type {FeedbackColor}
  */
 const positive = [amsterdam.i10, amsterdam.i70];
@@ -278,6 +283,7 @@ const colors = {
   paris,
   vilaOlimpia,
   white,
+  text,
   positive,
   negative,
   informative,
