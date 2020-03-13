@@ -17,16 +17,19 @@
  * @property {number} medium - 16
  * @property {number} large - 20
  * @property {number} xlarge - 24
- * @property {number} xxlarge - 40
- * @property {number} xxxlarge - 56
- * @property {number} huge - 72
+ * @property {number} xxlarge - 32
+ * @property {number} xxxlarge - 40
+ * @property {number} huge - 48
+ * @property {number} xhuge - 56
+ * @property {number} xxhuge - 64
+ * @property {number} xxxhuge - 72
  */
 
 /**
  * @type {Spacing}
  * @default
  */
-const spacing = [0, 4, 8, 12, 16, 20, 24, 40, 56, 72];
+const spacing = [0, 4, 8, 12, 16, 20, 24, 32, 40, 48, 56, 64, 72];
 [
   spacing.zero,
   spacing.xxsmall,
@@ -38,6 +41,9 @@ const spacing = [0, 4, 8, 12, 16, 20, 24, 40, 56, 72];
   spacing.xxlarge,
   spacing.xxxlarge,
   spacing.huge,
+  spacing.xhuge,
+  spacing.xxhuge,
+  spacing.xxxhuge,
 ] = spacing;
 
 export default spacing;
