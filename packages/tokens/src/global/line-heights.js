@@ -14,15 +14,16 @@
  * @property {number} xsmall - 16
  * @property {number} small - 20
  * @property {number} medium - 24
- * @property {number} large - 32
- * @property {number} xlarge - 40
+ * @property {number} large - 28
+ * @property {number} xlarge - 32
+ * @property {number} xxlarge - 40
  */
 
 /**
  * @type {LineHeight}
  * @default
  */
-const lineHeight = [12, 16, 20, 24, 32, 40];
+const lineHeight = [12, 16, 20, 24, 28, 32, 40];
 
 [
   lineHeight.xxsmall,
@@ -31,6 +32,7 @@ const lineHeight = [12, 16, 20, 24, 32, 40];
   lineHeight.medium,
   lineHeight.large,
   lineHeight.xlarge,
+  lineHeight.xxlarge,
 ] = lineHeight;
 
 export default lineHeight;
