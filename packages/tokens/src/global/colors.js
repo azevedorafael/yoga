@@ -102,7 +102,7 @@ const milan = [
 /**
  * @type {Color}
  */
-const amsterda = [
+const amsterdam = [
   '#D4FADC',
   '#AAFDB6',
   '#83FC8B',
@@ -113,20 +113,20 @@ const amsterda = [
   '#317D42',
 ];
 [
-  amsterda.i10,
-  amsterda.i20,
-  amsterda.i30,
-  amsterda.i40,
-  amsterda.i50,
-  amsterda.i60,
-  amsterda.i70,
-  amsterda.i80,
-] = amsterda;
+  amsterdam.i10,
+  amsterdam.i20,
+  amsterdam.i30,
+  amsterdam.i40,
+  amsterdam.i50,
+  amsterdam.i60,
+  amsterdam.i70,
+  amsterdam.i80,
+] = amsterdam;
 
 /**
  * @type {Color}
  */
-const saopaulo = [
+const saoPaulo = [
   '#D8F5F5',
   '#B4F1EA',
   '#80EEDB',
@@ -137,20 +137,20 @@ const saopaulo = [
   '#117D6F',
 ];
 [
-  saopaulo.i10,
-  saopaulo.i20,
-  saopaulo.i30,
-  saopaulo.i40,
-  saopaulo.i50,
-  saopaulo.i60,
-  saopaulo.i70,
-  saopaulo.i80,
-] = saopaulo;
+  saoPaulo.i10,
+  saoPaulo.i20,
+  saoPaulo.i30,
+  saoPaulo.i40,
+  saoPaulo.i50,
+  saoPaulo.i60,
+  saoPaulo.i70,
+  saoPaulo.i80,
+] = saoPaulo;
 
 /**
  * @type {Color}
  */
-const buenosaires = [
+const buenosAires = [
   '#CAE5F5',
   '#95D4EF',
   '#6EBCEA',
@@ -161,20 +161,20 @@ const buenosaires = [
   '#004294',
 ];
 [
-  buenosaires.i10,
-  buenosaires.i20,
-  buenosaires.i30,
-  buenosaires.i40,
-  buenosaires.i50,
-  buenosaires.i60,
-  buenosaires.i70,
-  buenosaires.i80,
-] = buenosaires;
+  buenosAires.i10,
+  buenosAires.i20,
+  buenosAires.i30,
+  buenosAires.i40,
+  buenosAires.i50,
+  buenosAires.i60,
+  buenosAires.i70,
+  buenosAires.i80,
+] = buenosAires;
 
 /**
  * @type {Color}
  */
-const newyork = [
+const newYork = [
   '#EBECF9',
   '#D7DAF3',
   '#AFB5E8',
@@ -185,15 +185,15 @@ const newyork = [
   '#001027',
 ];
 [
-  newyork.i10,
-  newyork.i20,
-  newyork.i30,
-  newyork.i40,
-  newyork.i50,
-  newyork.i60,
-  newyork.i70,
-  newyork.i80,
-] = newyork;
+  newYork.i10,
+  newYork.i20,
+  newYork.i30,
+  newYork.i40,
+  newYork.i50,
+  newYork.i60,
+  newYork.i70,
+  newYork.i80,
+] = newYork;
 
 /**
  * @type {Color}
@@ -221,7 +221,7 @@ const paris = [
 /**
  * @type {Color}
  */
-const vilaolimpia = [
+const vilaOlimpia = [
   '#F5F5FA',
   '#E6E6F0',
   '#D3D3E2',
@@ -232,20 +232,15 @@ const vilaolimpia = [
   '#41414A',
 ];
 [
-  vilaolimpia.i10,
-  vilaolimpia.i20,
-  vilaolimpia.i30,
-  vilaolimpia.i40,
-  vilaolimpia.i50,
-  vilaolimpia.i60,
-  vilaolimpia.i70,
-  vilaolimpia.i80,
-] = vilaolimpia;
-
-const foundation = {
-  text: { primary: '', secondary: '', disabled: '', light: '' },
-  elements: { dropshadow: '', border: '', background: [] },
-};
+  vilaOlimpia.i10,
+  vilaOlimpia.i20,
+  vilaOlimpia.i30,
+  vilaOlimpia.i40,
+  vilaOlimpia.i50,
+  vilaOlimpia.i60,
+  vilaOlimpia.i70,
+  vilaOlimpia.i80,
+] = vilaOlimpia;
 
 /**
  * @type {String}
@@ -255,7 +250,7 @@ const white = '#FFFFFF';
 /**
  * @type {FeedbackColor}
  */
-const positive = [amsterda.i10, amsterda.i70];
+const positive = [amsterdam.i10, amsterdam.i70];
 
 /**
  * @type {FeedbackColor}
@@ -265,7 +260,7 @@ const negative = [madrid.i10, madrid.i70];
 /**
  * @type {FeedbackColor}
  */
-const informative = [buenosaires.i10, buenosaires.i70];
+const informative = [buenosAires.i10, buenosAires.i70];
 
 /**
  * @type {FeedbackColor}
@@ -276,13 +271,12 @@ const colors = {
   madrid,
   munich,
   milan,
-  amsterda,
-  saopaulo,
-  buenosaires,
-  newyork,
+  amsterdam,
+  saoPaulo,
+  buenosAires,
+  newYork,
   paris,
-  vilaolimpia,
-  foundation,
+  vilaOlimpia,
   white,
   positive,
   negative,
