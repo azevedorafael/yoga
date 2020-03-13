@@ -10,17 +10,28 @@
  * @typedef Radii
  *
  * @type {Object}
- * @property {number} sharp A sharp value for border radius (0 radius)
- * @property {number} semiRounded A semi-rounded value for border radius (4 radius)
- * @property {number} rounded A rounded value for border radius (8 radius)
- * @property {String} circle A circle value for border radius (100% radius)
+ * @property {number} xxsmall - 0 radius
+ * @property {number} xsmall - 2 radius
+ * @property {number} small - 4 radius
+ * @property {number} medium - 8 radius
+ * @property {number} large - 12 radius
+ * @property {number} xlarge - 16 radius
+ * @property {number} xxlarge - 9999 radius
  */
 
 /**
  * @type {Radii}
  * @default
  */
-const radii = [0, 4, 8, 9999];
-[radii.sharp, radii.semiRounded, radii.rounded, radii.circle] = radii;
+const radii = [0, 2, 4, 8, 12, 16, 9999];
+[
+  radii.xxsmall,
+  radii.xsmall,
+  radii.small,
+  radii.medium,
+  radii.large,
+  radii.xlarge,
+  radii.xxlarge,
+] = radii;
 
 export default radii;
