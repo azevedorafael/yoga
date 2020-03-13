@@ -15,37 +15,41 @@
 /**
  * @type {Color}
  */
-const madrid = ['#FDE5E2', '#FAB9B2', '#F78D82', '#F46152'];
+const madrid = [
+  '#FFE3E1',
+  '#F8C6BD',
+  '#F5A391',
+  '#F48170',
+  '#F46152',
+  '#D65048',
+  '#CB3530',
+  '#A9221F',
+];
 
 /**
  * @type {Color}
  */
-const milan = ['#FFF6E6', '#FFE5B3', '#FFD380', '#FFC24C'];
+const saoPaulo = ['#D8F5F5', '#58C2B4', '#2B9486'];
 
 /**
  * @type {Color}
  */
-const saoPaulo = ['#6FDCCB', '#58C2B4', '#3FA99B', '#2B9486'];
+const newYork = ['#EBECF9', '#3847C7', '#181E56'];
 
 /**
  * @type {Color}
  */
-const newYork = ['#606CD2', '#3847C7', '#2D399F', '#232C7B'];
+const paris = ['#EBE6FF', '#9B83F1', '#652CDB'];
 
 /**
  * @type {Color}
  */
-const paris = ['#BFA8F0', '#A07CE9', '#8051E1', '#652CDB'];
+const buenosAires = ['#CAE5F5', '#4C9FE4', '#3847C6'];
 
-/**
- * @type {Color}
- */
-const white = '#FFFFFF';
-
-/**
- * @type {Color}
- */
-const dark = '#41414A';
+const foundation = {
+  text: [],
+  elements: [],
+};
 
 /**
  * @type {Color}
@@ -62,6 +66,16 @@ const gray = [
   '#6B6B78', // 8
   dark, // 9
 ];
+
+/**
+ * @type {Color}
+ */
+const white = '#FFFFFF';
+
+/**
+ * @type {Color}
+ */
+const dark = '#41414A';
 
 /**
  * @type {Color}
@@ -85,10 +99,10 @@ const warning = ['#FBFBBE', '#CB9303'];
 
 const colors = {
   madrid,
-  milan,
   saoPaulo,
   newYork,
   paris,
+  buenosAires,
   positive,
   negative,
   informative,
