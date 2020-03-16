@@ -10,18 +10,18 @@ const input = ({
   height: 52,
   font: {
     color: {
-      default: colors.gray.medium,
-      focus: colors.gray.darker,
+      default: colors.gray[5],
+      focus: colors.gray[7],
     },
     size: fontSizes.small,
     weight: fontWeights.regular,
   },
   border: {
     width: borders.small,
-    radius: radii.rounded,
+    radius: radii.medium,
     color: {
-      default: colors.gray[4],
-      typed: colors.gray.darker,
+      default: colors.gray[2],
+      typed: colors.gray[7],
     },
   },
   padding: {
@@ -32,8 +32,8 @@ const input = ({
   },
   label: {
     color: {
-      default: colors.gray.medium,
-      focus: colors.gray.darker,
+      default: colors.gray[5],
+      focus: colors.gray[7],
     },
     padding: {
       right: spacing.xxsmall,
@@ -51,7 +51,7 @@ const input = ({
     },
   },
   helper: {
-    color: colors.gray.medium,
+    color: colors.gray[5],
     margin: {
       top: spacing.xxsmall,
     },
