@@ -1322,15 +1322,15 @@ exports[`<Button /> Snapshots Without props should match snapshot with default B
 }
 
 .c0:active {
-  background-color: #F78D82;
-  border-color: #F78D82;
+  background-color: #F48170;
+  border-color: #F48170;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #DBDBE8;
-  border-color: #DBDBE8;
-  color: #9898A6;
+  background-color: #D3D3E2;
+  border-color: #D3D3E2;
+  color: #9898A7;
   cursor: not-allowed;
 }
 
@@ -1452,15 +1452,15 @@ exports[`<Button /> Snapshots Without props should match snapshot with outline B
 }
 
 .c0:active {
-  background-color: #F78D82;
-  border-color: #F78D82;
+  background-color: #F48170;
+  border-color: #F48170;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #DBDBE8;
-  border-color: #DBDBE8;
-  color: #9898A6;
+  background-color: #D3D3E2;
+  border-color: #D3D3E2;
+  color: #9898A7;
   cursor: not-allowed;
 }
 
@@ -1478,14 +1478,14 @@ exports[`<Button /> Snapshots Without props should match snapshot with outline B
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F78D82;
-  color: #F78D82;
+  border-color: #F48170;
+  color: #F48170;
 }
 
 .c1:disabled {
   background-color: transparent;
-  border-color: #9898A6;
-  color: #9898A6;
+  border-color: #9898A7;
+  color: #9898A7;
 }
 
 <div>

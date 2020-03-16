@@ -35,13 +35,17 @@ const {
 } = tokens;
 
 const BaseTheme = ({ primary, secondary, tertiary }) => {
-  const baseFont = fonts.openSans;
+  const baseFont = {
+    family: fonts.openSans,
+    weight: fontWeights,
+  };
+
   const baseFontSize = fontSizes.medium;
   const colors = {
     primary,
     secondary,
     tertiary,
-    gray: tokenColors.gray,
+    gray: tokenColors.vilaOlimpia,
     white: tokenColors.white,
     dark: tokenColors.dark,
     positive: tokenColors.positive,
@@ -49,8 +53,7 @@ const BaseTheme = ({ primary, secondary, tertiary }) => {
     informative: tokenColors.informative,
     warning: tokenColors.warning,
     disabled: {
-      background: tokenColors.gray[4],
-      content: tokenColors.gray[7],
+      content: tokenColors.vilaOlimpia[7],
     },
   };
 
