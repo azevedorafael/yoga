@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     color: ${input.helper.color};
 
     ${error ? `color: ${colors.negative[1]};` : ''}
-    ${disabled ? `color: ${colors.disabled.background};` : ''}
+    ${disabled ? `color: ${colors.gray.i30};` : ''}
   `}
 `;
 

@@ -65,13 +65,15 @@ const Field = styled.input`
         ${labelTransition}
 
         font-weight: ${input.label.font.weight.typed};
-        color: ${error ? `${colors.negative[1]}` : `${colors.gray.darker}`};
+        color: ${
+          error ? `${colors.negative[1]}` : `${input.label.color.focus}`
+        };
       }
     }
 
     &:disabled {
       cursor: not-allowed;
-      color: ${colors.disabled.background};
+      color: ${colors.gray.i30};
     }
 
     &::placeholder {

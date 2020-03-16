@@ -23,7 +23,7 @@ import colors from './colors';
  * @type Elevation
  * @default
  */
-const elevations = elevate(colors.vilaOlimpia.i50);
+const elevations = elevate(colors.vilaOlimpia.i60);
 
 [
   elevations.zero,

@@ -88,14 +88,14 @@ const Wrapper = styled.div`
               error ? colors.negative[1] : input.border.color.typed
             };
 
-            ${disabled ? `border-color: ${colors.disabled.background};` : ''}
+            ${disabled ? `border-color: ${colors.gray.i30};` : ''}
           }`
           : `
           border-color: ${
             error ? colors.negative[1] : input.border.color.typed
           };
 
-          ${disabled ? `border-color: ${colors.disabled.background};` : ''}
+          ${disabled ? `border-color: ${colors.gray.i30};` : ''}
       `
       }
     }
@@ -103,19 +103,15 @@ const Wrapper = styled.div`
     ${
       disabled
         ? `
-            border-color: ${colors.disabled.background};
-            color: ${colors.disabled.background};
+            border-color: ${colors.gray.i30};
+            color: ${colors.gray.i30};
 
             svg {
-              fill: ${colors.disabled.background};
+              fill: ${colors.gray.i30};
               pointer-events: none;
             }
 
-            ${
-              label
-                ? `fieldset { border-color: ${colors.disabled.background}; }`
-                : ''
-            }
+            ${label ? `fieldset { border-color: ${colors.gray.i30}; }` : ''}
           `
         : ''
     }
