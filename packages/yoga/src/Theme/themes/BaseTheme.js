@@ -46,7 +46,6 @@ const BaseTheme = ({ primary, secondary }) => {
     secondary,
     gray: tokenColors.vilaOlimpia,
     white: tokenColors.white,
-    dark: tokenColors.dark,
     positive: tokenColors.positive,
     negative: tokenColors.negative,
     informative: tokenColors.informative,
