@@ -72,17 +72,17 @@ const button = ({
         disabled: 'transparent',
         default: 'transparent',
         pressed: 'transparent',
-        hover: hexToRgb(colors.primary[3], 0.3),
+        hover: hexToRgb(colors.primary[4], 0.3),
       },
       font: {
         default: {
-          color: colors.primary[3],
+          color: colors.primary[4],
         },
         disabled: {
-          color: colors.gray[7],
+          color: colors.gray[5],
         },
         pressed: {
-          color: colors.primary[2],
+          color: colors.primary[3],
         },
       },
     },
