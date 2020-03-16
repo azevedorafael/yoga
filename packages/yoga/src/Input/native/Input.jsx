@@ -24,7 +24,7 @@ const Wrapper = styled.View(
     },
   }) => `
     position: relative;
-    width: ${full ? '100%' : `${input.width}px`};
+    width: ${full ? '100%' : `${input.field.width}px`};
   `,
 );
 
@@ -44,7 +44,7 @@ const Field = styled.TextInput(
       },
     },
   }) => `
-    width: ${full ? '100%' : `${input.width}px`};
+    width: ${full ? '100%' : `${input.field.width}px`};
 
     padding-top: ${input.padding.top}px;
     padding-right: ${
@@ -69,8 +69,8 @@ const Field = styled.TextInput(
     ${
       disabled
         ? `
-          border-color: ${colors.disabled.background};
-          color: ${colors.disabled.background};
+          border-color: ${colors.gray.i30};
+          color: ${colors.gray.i30};
         `
         : ''
     }
@@ -109,7 +109,7 @@ const Label = styled(Animated.Text)(
       },
     },
   }) => `
-    background-color: ${colors.gray.surface};
+    background-color: ${input.field.backgroundColor};
 
     font-weight: ${input.label.font.weight.default};
     color: ${input.label.color.default};
@@ -132,7 +132,7 @@ const Label = styled(Animated.Text)(
     }
 
     ${error ? `color: ${colors.negative[1]};` : ''}
-    ${disabled ? `color: ${colors.disabled.background};` : ''}
+    ${disabled ? `color: ${colors.gray.i30};` : ''}
   `,
 );
 
@@ -160,8 +160,8 @@ const Helper = styled.View(
       },
     },
   }) => `
-    width: ${full ? '100%' : `${input.width}px`};
-    max-width: ${input.width}px;
+    width: ${full ? '100%' : `${input.field.width}px`};
+    max-width: ${input.field.width}px;
     flex-direction: row;
 
     margin-top: ${input.helper.margin.top}px;
@@ -187,7 +187,7 @@ const Info = styled.Text(
     font-size: ${input.helper.font.size}px;
     
     ${error ? `color: ${colors.negative[1]};` : ''}
-    ${disabled ? `color: ${colors.disabled.background}` : ''}
+    ${disabled ? `color: ${colors.gray.i30};` : ''}
     ${right ? 'margin-left: auto;' : ''}
   `,
 );
@@ -228,7 +228,7 @@ const Input = ({
 
   const iconColor = () => {
     if (disabled) {
-      return colors.disabled.background;
+      return colors.gray.i30;
     }
 
     if (focused) {
@@ -264,7 +264,7 @@ const Input = ({
     );
   }, [focused, typed]);
 
-  const { height = input.height, ...styles } = Array.isArray(style)
+  const { height = input.field.height, ...styles } = Array.isArray(style)
     ? Object.assign({}, ...style)
     : style;
   return (
@@ -325,7 +325,7 @@ const Input = ({
           }}
         >
           <CloseIcon>
-            <Close height={input.height} width={20} fill={iconColor()} />
+            <Close height={input.field.height} width={20} fill={iconColor()} />
           </CloseIcon>
         </TouchableWithoutFeedback>
       )}

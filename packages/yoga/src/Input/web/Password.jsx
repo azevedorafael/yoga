@@ -48,7 +48,7 @@ const IconWrapper = styled.div`
     padding-right: ${spacing.medium}px;
     padding-left: ${spacing.xsmall}px;
 
-    height: ${input.height}px;
+    height: ${input.field.height}px;
     cursor: pointer;
 
     outline: none;
@@ -67,7 +67,7 @@ const IconWrapper = styled.div`
     }
 
     svg {
-      height: ${input.height}px;
+      height: ${input.field.height}px;
       width: 20px;
       fill: ${input.font.color.default};
 

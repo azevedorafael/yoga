@@ -218,6 +218,7 @@ const paris = [
   paris.i70,
   paris.i80,
 ] = paris;
+
 /**
  * @type {Color}
  */

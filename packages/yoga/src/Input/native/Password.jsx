@@ -17,7 +17,7 @@ const Wrapper = styled.View(
   }) => `
     position: relative;
 
-    width: ${full ? '100%' : `${input.width}px`};
+    width: ${full ? '100%' : `${input.field.width}px`};
   `,
 );
 
@@ -55,7 +55,7 @@ const Password = ({
 
   const iconColor = () => {
     if (disabled) {
-      return colors.disabled.background;
+      return colors.gray.i30;
     }
 
     if (focused) {
@@ -96,10 +96,14 @@ const Password = ({
       >
         <IconWrapper disabled={disabled}>
           {showPassword ? (
-            <Visibility height={input.height} width={20} fill={iconColor()} />
+            <Visibility
+              height={input.field.height}
+              width={20}
+              fill={iconColor()}
+            />
           ) : (
             <VisibilityOff
-              height={input.height}
+              height={input.field.height}
               width={20}
               fill={iconColor()}
             />

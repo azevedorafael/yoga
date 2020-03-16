@@ -2,9 +2,6 @@ import input from './input';
 
 const autocomplete = tokens => ({
   ...input(tokens),
-  field: {
-    backgroundColor: tokens.colors.white,
-  },
   list: {
     padding: {
       top: tokens.spacing.medium,
@@ -22,7 +19,7 @@ const autocomplete = tokens => ({
     },
     backgroundColor: {
       default: tokens.colors.white,
-      hover: tokens.colors.gray[0],
+      hover: tokens.colors.gray.i10,
     },
   },
 });

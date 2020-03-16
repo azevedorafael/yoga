@@ -6,8 +6,11 @@ const input = ({
   radii,
   spacing,
 }) => ({
-  width: 320,
-  height: 52,
+  field: {
+    width: 320,
+    height: 52,
+    backgroundColor: colors.white,
+  },
   font: {
     color: {
       default: colors.gray[5],

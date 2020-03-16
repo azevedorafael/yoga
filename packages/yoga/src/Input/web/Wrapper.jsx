@@ -19,7 +19,7 @@ const Wrapper = styled.div`
       },
     },
   }) => `
-    height: ${input.height}px;
+    height: ${input.field.height}px;
 
     ${
       !label
@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 
 
     & {
-      width: ${full ? '100%' : `${input.width}px`};
+      width: ${full ? '100%' : `${input.field.width}px`};
     }
 
     ${
@@ -58,7 +58,7 @@ const Wrapper = styled.div`
       padding-right: ${spacing.medium}px;
       padding-left: ${spacing.xsmall}px;
 
-      height: ${input.height}px;
+      height: ${input.field.height}px;
       width: 20px;
 
       fill: ${input.font.color.default};

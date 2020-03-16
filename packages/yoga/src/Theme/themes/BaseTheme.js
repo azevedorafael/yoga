@@ -56,19 +56,6 @@ const BaseTheme = ({ primary, secondary }) => {
     },
   };
 
-  [
-    colors.gray.surface,
-    colors.gray.background,
-    ,
-    ,
-    ,
-    ,
-    ,
-    colors.gray.medium,
-    colors.gray.dark,
-    colors.gray.darker,
-  ] = colors.gray;
-
   const components = {
     stepper: stepper({ colors, spacing, fontWeights, radii }),
     slider: slider({ colors, radii, elevations, spacing, fontWeights }),

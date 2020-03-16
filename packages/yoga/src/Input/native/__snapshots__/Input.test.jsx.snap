@@ -132,7 +132,7 @@ exports[`<Input /> Snapshots should match with default input 1`] = `
             "borderRadius": 8,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
             "paddingBottom": 16,
@@ -251,7 +251,7 @@ exports[`<Input /> Snapshots should match with error 1`] = `
             "borderRadius": 8,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
             "paddingBottom": 16,
@@ -340,7 +340,7 @@ exports[`<Input /> Snapshots should match with full width 1`] = `
             "borderRadius": 8,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
             "paddingBottom": 16,
@@ -381,7 +381,7 @@ exports[`<Input /> Snapshots should match with full width 1`] = `
         style={
           Object {
             "backgroundColor": "#FFFFFF",
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
           }
@@ -433,7 +433,7 @@ exports[`<Input /> Snapshots should match with helper text and max length 1`] = 
             "borderRadius": 8,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
             "paddingBottom": 16,
@@ -469,7 +469,7 @@ exports[`<Input /> Snapshots should match with helper text and max length 1`] = 
         style={
           Array [
             Object {
-              "color": "#9898A6",
+              "color": "#9898A7",
               "flexShrink": 1,
               "flexWrap": "wrap",
               "fontSize": 12,
@@ -485,7 +485,7 @@ exports[`<Input /> Snapshots should match with helper text and max length 1`] = 
         style={
           Array [
             Object {
-              "color": "#9898A6",
+              "color": "#9898A7",
               "flexShrink": 0,
               "flexWrap": "wrap",
               "fontSize": 12,
@@ -540,7 +540,7 @@ exports[`<Input /> Snapshots should match with label 1`] = `
             "borderRadius": 8,
             "borderStyle": "solid",
             "borderWidth": 1,
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
             "paddingBottom": 16,
@@ -581,7 +581,7 @@ exports[`<Input /> Snapshots should match with label 1`] = `
         style={
           Object {
             "backgroundColor": "#FFFFFF",
-            "color": "#9898A6",
+            "color": "#9898A7",
             "fontSize": 14,
             "fontWeight": "400",
           }

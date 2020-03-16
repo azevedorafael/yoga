@@ -69,8 +69,8 @@ const List = styled.ul`
   }) => `
     top: ${autocomplete.height}px;
 
-    width: ${full ? '100%' : `${autocomplete.width}px`};
-    max-height: ${autocomplete.height * 6}px;
+    width: ${full ? '100%' : `${autocomplete.field.width}px`};
+    max-height: ${autocomplete.field.height * 6}px;
 
     background-color: ${autocomplete.field.backgroundColor};
 
