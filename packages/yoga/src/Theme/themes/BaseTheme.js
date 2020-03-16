@@ -46,7 +46,6 @@ const BaseTheme = ({ primary, secondary }) => {
     secondary,
     gray: tokenColors.vilaOlimpia,
     white: tokenColors.white,
-    dark: tokenColors.dark,
     positive: tokenColors.positive,
     negative: tokenColors.negative,
     informative: tokenColors.informative,
@@ -55,19 +54,6 @@ const BaseTheme = ({ primary, secondary }) => {
       content: tokenColors.vilaOlimpia[7],
     },
   };
-
-  [
-    colors.gray.surface,
-    colors.gray.background,
-    ,
-    ,
-    ,
-    ,
-    ,
-    colors.gray.medium,
-    colors.gray.dark,
-    colors.gray.darker,
-  ] = colors.gray;
 
   const components = {
     stepper: stepper({ colors, spacing, fontWeights, radii }),
