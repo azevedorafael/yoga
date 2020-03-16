@@ -33,8 +33,8 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with defa
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -87,7 +87,7 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with link
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: #F48170;
+  color: #F46152;
 }
 
 .c0:not([disabled]):hover,
@@ -96,8 +96,8 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with link
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -111,7 +111,7 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with link
 .c0:not([disabled]):hover,
 .c0:not([disabled]):focus {
   box-shadow: unset;
-  color: #F5A391;
+  color: #FFE4E1;
 }
 
 .c0:not([disabled]):active {
@@ -165,8 +165,8 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with outl
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -191,8 +191,8 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with outl
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F48170;
-  color: #F48170;
+  border-color: #F5A391;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -244,8 +244,8 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with text
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -271,7 +271,7 @@ exports[`<Button /> Snapshots With disabled prop should match snapshot with text
 .c1:not([disabled]):active {
   background-color: transparent;
   border-color: transparent;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -323,8 +323,8 @@ exports[`<Button /> Snapshots With full prop should match snapshot with default 
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -377,8 +377,8 @@ exports[`<Button /> Snapshots With full prop should match snapshot with outline 
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -403,8 +403,8 @@ exports[`<Button /> Snapshots With full prop should match snapshot with outline 
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F48170;
-  color: #F48170;
+  border-color: #F5A391;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -455,8 +455,8 @@ exports[`<Button /> Snapshots With full prop should match snapshot with text But
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -482,7 +482,7 @@ exports[`<Button /> Snapshots With full prop should match snapshot with text But
 .c1:not([disabled]):active {
   background-color: transparent;
   border-color: transparent;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -536,8 +536,8 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with defa
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -551,7 +551,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with defa
 .c0:active {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c0:not([disabled]):hover,
@@ -603,7 +603,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with link
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: #F48170;
+  color: #F46152;
   color: #FFFFFF;
 }
 
@@ -613,8 +613,8 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with link
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -628,7 +628,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with link
 .c0:active {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c0:not([disabled]):hover,
@@ -639,7 +639,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with link
 .c0:not([disabled]):hover,
 .c0:not([disabled]):focus {
   box-shadow: unset;
-  color: #F5A391;
+  color: #FFE4E1;
 }
 
 .c0:not([disabled]):active {
@@ -701,8 +701,8 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with outl
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -716,7 +716,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with outl
 .c0:active {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c0:not([disabled]):hover,
@@ -740,8 +740,8 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with outl
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F48170;
-  color: #F48170;
+  border-color: #F5A391;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -805,8 +805,8 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with text
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -820,7 +820,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with text
 .c0:active {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c0:not([disabled]):hover,
@@ -843,7 +843,7 @@ exports[`<Button /> Snapshots With inverted prop should match snapshot with text
 .c1:not([disabled]):active {
   background-color: transparent;
   border-color: transparent;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -894,8 +894,8 @@ exports[`<Button /> Snapshots With small prop should match snapshot with default
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -948,8 +948,8 @@ exports[`<Button /> Snapshots With small prop should match snapshot with outline
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -974,8 +974,8 @@ exports[`<Button /> Snapshots With small prop should match snapshot with outline
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F48170;
-  color: #F48170;
+  border-color: #F5A391;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -1026,8 +1026,8 @@ exports[`<Button /> Snapshots With small prop should match snapshot with text Bu
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1053,7 +1053,7 @@ exports[`<Button /> Snapshots With small prop should match snapshot with text Bu
 .c1:not([disabled]):active {
   background-color: transparent;
   border-color: transparent;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -1103,7 +1103,7 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: #F48170;
+  color: #F46152;
 }
 
 .c0:not([disabled]):hover,
@@ -1112,8 +1112,8 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1127,7 +1127,7 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
 .c0:not([disabled]):hover,
 .c0:not([disabled]):focus {
   box-shadow: unset;
-  color: #F5A391;
+  color: #FFE4E1;
 }
 
 .c0:not([disabled]):active {
@@ -1171,7 +1171,7 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: #B3A1F2;
+  color: #715EB8;
 }
 
 .c1:not([disabled]):hover,
@@ -1180,8 +1180,8 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
 }
 
 .c1:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1195,83 +1195,15 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
 .c1:not([disabled]):hover,
 .c1:not([disabled]):focus {
   box-shadow: unset;
-  color: #C5BAF4;
+  color: #EBE6FF;
 }
 
 .c1:not([disabled]):active {
   background-color: unset;
-  color: #C5BAF4;
+  color: #9B83F1;
 }
 
 .c1:disabled {
-  background-color: unset;
-  color: #9898A7;
-}
-
-.c2 {
-  box-sizing: border-box;
-  outline: none;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  cursor: pointer;
-  width: auto;
-  height: 48px;
-  padding-left: 24px;
-  padding-right: 24px;
-  background-color: #F46152;
-  border: 2px solid #F46152;
-  border-radius: 9999px;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: Open Sans;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  height: unset;
-  padding: 0;
-  margin-top: 16px;
-  margin-bottom: 8px;
-  background-color: unset;
-  border: none;
-  border-radius: 0;
-  color: #6FDCCB;
-}
-
-.c2:not([disabled]):hover,
-.c2:not([disabled]):focus {
-  box-shadow: 0 4px 8px rgba(244,97,82,0.45);
-}
-
-.c2:active {
-  background-color: #F48170;
-  border-color: #F48170;
-  color: #FFFFFF;
-}
-
-.c2:disabled {
-  background-color: #D3D3E2;
-  border-color: #D3D3E2;
-  color: #9898A7;
-  cursor: not-allowed;
-}
-
-.c2:not([disabled]):hover,
-.c2:not([disabled]):focus {
-  box-shadow: unset;
-  color: #80EEDB;
-}
-
-.c2:not([disabled]):active {
-  background-color: unset;
-  color: #80EEDB;
-}
-
-.c2:disabled {
   background-color: unset;
   color: #9898A7;
 }
@@ -1282,9 +1214,6 @@ exports[`<Button /> Snapshots With variant prop should match snapshot with link 
   />
   <button
     class="c1"
-  />
-  <button
-    class="c2"
   />
 </div>
 `;
@@ -1322,8 +1251,8 @@ exports[`<Button /> Snapshots Without props should match snapshot with default B
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1375,7 +1304,7 @@ exports[`<Button /> Snapshots Without props should match snapshot with link Butt
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: #F48170;
+  color: #F46152;
 }
 
 .c0:not([disabled]):hover,
@@ -1384,8 +1313,8 @@ exports[`<Button /> Snapshots Without props should match snapshot with link Butt
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1399,7 +1328,7 @@ exports[`<Button /> Snapshots Without props should match snapshot with link Butt
 .c0:not([disabled]):hover,
 .c0:not([disabled]):focus {
   box-shadow: unset;
-  color: #F5A391;
+  color: #FFE4E1;
 }
 
 .c0:not([disabled]):active {
@@ -1452,8 +1381,8 @@ exports[`<Button /> Snapshots Without props should match snapshot with outline B
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1478,8 +1407,8 @@ exports[`<Button /> Snapshots Without props should match snapshot with outline B
 
 .c1:not([disabled]):active {
   background-color: transparent;
-  border-color: #F48170;
-  color: #F48170;
+  border-color: #F5A391;
+  color: #F5A391;
 }
 
 .c1:disabled {
@@ -1530,8 +1459,8 @@ exports[`<Button /> Snapshots Without props should match snapshot with text Butt
 }
 
 .c0:active {
-  background-color: #F48170;
-  border-color: #F48170;
+  background-color: #F5A391;
+  border-color: #F5A391;
   color: #FFFFFF;
 }
 
@@ -1557,7 +1486,7 @@ exports[`<Button /> Snapshots Without props should match snapshot with text Butt
 .c1:not([disabled]):active {
   background-color: transparent;
   border-color: transparent;
-  color: #F48170;
+  color: #F5A391;
 }
 
 .c1:disabled {
