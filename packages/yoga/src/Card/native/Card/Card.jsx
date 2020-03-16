@@ -98,12 +98,12 @@ Card.propTypes = {
    * variantIntensity: ribbon variant color intensity (0, 1, 2, 3) */
   ribbon: shape({
     text: string,
-    variant: oneOf(['', 'primary', 'secondary', 'tertiary']),
+    variant: oneOf(['', 'primary', 'secondary']),
     variantIntensity: oneOf([0, 1, 2, 3]),
   }),
   children: node,
   /** style the card following the theme (primary, secondary, tertiary) */
-  variant: oneOf(['', 'primary', 'secondary', 'tertiary']),
+  variant: oneOf(['', 'primary', 'secondary']),
   /** intensity of variant color (0, 1, 2, 3) */
   variantIntensity: oneOf([0, 1, 2, 3]),
 };

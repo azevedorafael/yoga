@@ -46,7 +46,7 @@ const ButtonLink = props => <Link {...props} />;
 
 ButtonLink.propTypes = {
   /** style the link following the theme (primary, secondary, tertiary) */
-  variant: oneOf(['primary', 'secondary', 'tertiary']),
+  variant: oneOf(['primary', 'secondary']),
   inverted: bool,
   disabled: bool,
 };

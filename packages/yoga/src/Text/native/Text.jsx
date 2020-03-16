@@ -32,7 +32,7 @@ Text.displayName = 'Text';
 Text.propTypes = {
   inverted: bool,
   /** style the text following the theme (primary, secondary, tertiary) */
-  variant: oneOf(['primary', 'secondary', 'tertiary']),
+  variant: oneOf(['primary', 'secondary']),
 };
 
 Text.defaultProps = {

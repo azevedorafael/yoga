@@ -134,7 +134,7 @@ Progress.propTypes = {
    * indication of how long it is expected to take. */
   value: number,
   /** Value color based on theme colors (primary, secondary, tertiary). */
-  variant: oneOf(['primary', 'secondary', 'tertiary']),
+  variant: oneOf(['primary', 'secondary']),
 };
 
 Progress.defaultProps = {

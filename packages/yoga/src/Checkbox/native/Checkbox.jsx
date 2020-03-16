@@ -208,7 +208,7 @@ Checkbox.propTypes = {
   error: string,
   style: shape({}),
   /** style the card following the theme (primary, secondary, tertiary) */
-  variant: oneOf(['primary', 'secondary', 'tertiary']),
+  variant: oneOf(['primary', 'secondary']),
   onPressIn: func,
   onPressOut: func,
 };

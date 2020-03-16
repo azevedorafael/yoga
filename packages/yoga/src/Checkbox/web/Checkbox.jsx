@@ -238,7 +238,7 @@ Checkbox.propTypes = {
   style: objectOf(any),
   className: string,
   /** style the card following the theme (primary, secondary, tertiary) */
-  variant: oneOf(['primary', 'secondary', 'tertiary']),
+  variant: oneOf(['primary', 'secondary']),
 };
 
 Checkbox.defaultProps = {
