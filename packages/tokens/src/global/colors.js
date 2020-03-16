@@ -31,7 +31,7 @@
  * @type {Color}
  */
 const madrid = [
-  '#FFE3E1',
+  '#FFE4E1',
   '#F8C6BD',
   '#F5A391',
   '#F48170',

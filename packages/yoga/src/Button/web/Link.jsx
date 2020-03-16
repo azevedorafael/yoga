@@ -23,16 +23,16 @@ const Link = styled(StyledButton)`
   background-color: unset;
   border: none;
   border-radius: 0;
-  color: ${color[3]};
+  color: ${color[2]};
 
   &:not([disabled]):hover, &:not([disabled]):focus {
     box-shadow: unset;
-    color: ${color[2]};
+    color: ${color[0]};
   }
 
   &:not([disabled]):active {
     background-color: unset;
-    color: ${color[2]};
+    color: ${color[1]};
   }
 
   &:disabled {

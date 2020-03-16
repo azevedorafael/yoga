@@ -33,8 +33,8 @@ const button = ({
     contained: {
       backgroundColor: {
         disabled: colors.gray[2],
-        default: colors.primary[4],
-        pressed: colors.primary[3],
+        default: colors.primary[2],
+        pressed: colors.primary[1],
       },
       font: {
         default: {
@@ -53,17 +53,17 @@ const button = ({
         disabled: 'transparent',
         default: 'transparent',
         pressed: 'transparent',
-        hover: hexToRgb(colors.primary[4], 0.3),
+        hover: hexToRgb(colors.primary[2], 0.3),
       },
       font: {
         default: {
-          color: colors.primary[4],
+          color: colors.primary[2],
         },
         disabled: {
           color: colors.gray[5],
         },
         pressed: {
-          color: colors.primary[3],
+          color: colors.primary[1],
         },
       },
     },
@@ -72,17 +72,17 @@ const button = ({
         disabled: 'transparent',
         default: 'transparent',
         pressed: 'transparent',
-        hover: hexToRgb(colors.primary[4], 0.3),
+        hover: hexToRgb(colors.primary[2], 0.3),
       },
       font: {
         default: {
-          color: colors.primary[4],
+          color: colors.primary[2],
         },
         disabled: {
           color: colors.gray[5],
         },
         pressed: {
-          color: colors.primary[3],
+          color: colors.primary[1],
         },
       },
     },

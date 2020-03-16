@@ -32,7 +32,7 @@ describe('<Button />', () => {
         expect(container).toMatchSnapshot();
       });
 
-      it('should match snapshot with link Button', () => {
+      it.only('should match snapshot with link Button', () => {
         const { container } = render(
           <ThemeProvider>
             <Button.Link />

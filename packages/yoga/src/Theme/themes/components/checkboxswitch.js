@@ -16,7 +16,7 @@ const checkboxswitch = ({
       duration: transition.duration[1],
     },
     checked: {
-      backgroundColor: colors.primary[3],
+      backgroundColor: colors.primary[2],
     },
     disabled: {
       backgroundColor: colors.gray[1],
@@ -33,7 +33,7 @@ const checkboxswitch = ({
       duration: transition.duration[1],
     },
     checked: {
-      backgroundColor: colors.primary[3],
+      backgroundColor: colors.primary[2],
     },
     disabled: {
       backgroundColor: colors.gray[3],
@@ -41,7 +41,7 @@ const checkboxswitch = ({
   },
   focus: {
     checked: {
-      backgroundColor: hexToRgb(colors.primary[3], 0.2),
+      backgroundColor: hexToRgb(colors.primary[2], 0.2),
     },
     disabled: {
       backgroundColor: hexToRgb(colors.gray[7], 0.2),

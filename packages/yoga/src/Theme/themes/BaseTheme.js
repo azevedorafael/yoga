@@ -34,7 +34,7 @@ const {
   lineHeights,
 } = tokens;
 
-const BaseTheme = ({ primary, secondary, tertiary }) => {
+const BaseTheme = ({ primary, secondary }) => {
   const baseFont = {
     family: fonts.openSans,
     weight: fontWeights,
@@ -44,7 +44,6 @@ const BaseTheme = ({ primary, secondary, tertiary }) => {
   const colors = {
     primary,
     secondary,
-    tertiary,
     gray: tokenColors.vilaOlimpia,
     white: tokenColors.white,
     dark: tokenColors.dark,
