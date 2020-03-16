@@ -89,7 +89,7 @@ const button = ({
     link: {
       font: {
         disabled: {
-          color: colors.gray[7],
+          color: colors.gray[5],
         },
       },
       margin: {
